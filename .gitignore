@@ -1,0 +1,9 @@
+# Nothing to see here, go away!
+course_config.toml
+.tmcignore
+.tmc/
+
+**/tmc/
+
+__pycache__/
+*.pyc
