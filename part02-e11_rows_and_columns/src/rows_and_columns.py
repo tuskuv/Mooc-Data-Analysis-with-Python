@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
-
+'''
+ok, finally enter numpy.
+"def get_rows(a):
+    result = [row for row in a]
+    return result"
+funny how now that i went with a smooth list comprehension oneliner, 
+the model used a variable.
+'''
 import numpy as np
 
 def get_rows(a):
-    return []
+
+    return [row for row in a]
 
 def get_columns(a):
-    return []
+    return [row for row in a.T]
 
 def main():
     np.random.seed(0)
